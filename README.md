@@ -1,1 +1,1 @@
-# non.agency
+https://roman-malysh.github.io/non.agency/
