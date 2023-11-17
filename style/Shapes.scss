@@ -1,0 +1,55 @@
+.circle {
+  box-sizing: border-box;
+  background-color: $circleGrey;
+  border-radius: 50%;
+  border: 1px solid #0000004d;
+  margin: 0;
+  &-big {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+  }
+  &-small {
+    width: 44px;
+    height: 44px;
+    @include onDesktop {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  &-medium {
+    width: 108px;
+    height: 108px;
+    margin: 20px;
+  }
+  &__p {
+    margin-left: 15px;
+    font-size: 12px;
+    text-align: center;
+    white-space: pre-wrap;
+    width: 200px;
+    @include onDesktop {
+      margin-left: 30px;
+    }
+  }
+}
+
+.rectangle {
+  width: 100%;
+  height: 170px;
+  border: 1px solid #0000004d;
+  box-sizing: border-box;
+  padding-bottom: 50%;
+  &-withoutBorder {
+    border: none;
+  }
+  &-big {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border: 1px solid #0000004d;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+}

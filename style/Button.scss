@@ -1,0 +1,34 @@
+@import './Mixins.scss';
+
+.button {
+  transition: 0.3s;
+  background-color: $lightBlue;
+  border: 1px solid $lightBlue;
+  border-radius: 6px;
+  height: 40px;
+  width: 130px;
+  color: $white;
+  cursor: pointer;
+  @include onDesktop {
+    &:hover {
+      background-color: $white;
+      color: $lightBlue;
+    }
+  }
+  &-light {
+    transition: 0.3s;
+    background-color: transparent;
+    border: 1px solid $lightBlue;
+    border-radius: 6px;
+    height: 40px;
+    width: 130px;
+    color: $lightBlue;
+    cursor: pointer;
+  @include onDesktop {
+    &:hover {
+      background-color: $lightBlue;
+      color: $white;
+    }
+  }
+  }
+}

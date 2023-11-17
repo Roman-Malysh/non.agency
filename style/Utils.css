@@ -1,0 +1,37 @@
+.withoutPadding {
+  padding: 0;
+}
+
+.withoutPaddingOnSides {
+  padding: 0 0 20px;
+}
+
+.border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3019607843);
+  margin: 0;
+  padding: 20px 0;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.note {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subtitle {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.mb {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=Utils.css.map */

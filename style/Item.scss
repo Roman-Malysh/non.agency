@@ -1,0 +1,40 @@
+@import './Mixins.scss';
+
+.item {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include onTablet {
+    margin: 0 0 20px;
+  }
+  @include onDesktop {
+    margin: 0;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    @include onTablet {
+      font-size: 20px;
+    }
+  }
+  &__body {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  &__note {
+    color: #00000099;
+  }
+  &__link {
+    transition: 0.3s;
+    text-decoration: none;
+    color: $lightBlue;
+    @include onDesktop {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

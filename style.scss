@@ -1,0 +1,54 @@
+@import './style/Variables.scss';
+@import './style/Mixins.scss';
+@import './style/Images.scss';
+@import './style/Utils.scss';
+@import './style/Grid.scss';
+@import './style/Shapes.scss';
+@import './style/Card.scss';
+@import './style/Item.scss';
+@import './style/Button.scss';
+
+* {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#loom-companion-mv3 {
+  display: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: $backgroundGrey;
+  margin: 20px;
+  min-width: 350px;
+  min-height: 100%;
+  @include onTablet {
+    margin: 40px;
+  }
+  @include onDesktop {
+    margin: 80px;
+  }
+}
+
+section {
+  background-color: $white;
+  padding: 20px;
+  height: max-content;
+  margin-bottom: 20px;
+  @include onTablet {
+    padding: 30px;
+  }
+  @include onDesktop {
+    padding: 40px;
+  }
+}
+
+h2 {
+  color: $black;
+  font-size: 48px;
+  font-weight: 400;
+}

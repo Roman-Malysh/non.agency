@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #0000004d;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  &-small {
+    width: 70%;
+    margin: 0 auto 20px;
+  }
+  &__padding-container {
+    padding: 20px;
+  }
+  &__bold {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,50 @@
+.withoutPadding {
+  padding: 0;
+}
+
+.withoutPaddingOnSides {
+  padding: 0 0 20px;
+}
+
+.border {
+  border-bottom: 1px solid #0000004d;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.note {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subtitle {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.mb {
+  margin-bottom: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 10px 0;
+    height: 44px;
+    @include onDesktop {
+      height: 60px;
+    }
+}
